@@ -28,7 +28,7 @@
 
 #### Code source
 - [x] Scripts Python implémentant les différents modèles
-- [ ] Dépôt Git public avec le code complet
+- [x] Dépôt Git public avec le code complet
 - [x] Intégration de MLflow dans le code
 
 #### Analyse expérimentale
@@ -67,7 +67,7 @@
 - [x] Backend : Python + MLflow pour entraînement et API
 - [x] Frontend : React pour l'IHM (formulaire, visualisation)
 - [x] Communication via REST API entre React et Python
-- [ ] Versionnement Git pour le code complet
+- [x] Versionnement Git pour le code complet
 - [x] MLflow : tracker toutes les expérimentations et sauvegarder le meilleur modèle
 
 ### 7. Critères d'évaluation (Tâche 3)
@@ -169,11 +169,11 @@
 - [x] Automatiser les runs avec une boucle de configuration
 
 #### 2.2 Exploration de MLflow UI
-- [ ] Lancer l'interface MLflow (`mlflow ui --host 0.0.0.0 --port 5000`)
-- [ ] Capturer : trier les runs par accuracy décroissante
-- [ ] Capturer : sélectionner 2 runs et cliquer sur "Compare"
-- [ ] Capturer : visualiser le graphique Parallel Coordinates
-- [ ] Capturer : télécharger la matrice de confusion depuis l'onglet Artifacts
+- [x] Lancer l'interface MLflow (`mlflow ui --host 0.0.0.0 --port 5000`)
+- [x] Capturer : trier les runs par accuracy décroissante
+- [x] Capturer : sélectionner 2 runs et cliquer sur "Compare"
+- [x] Capturer : visualiser le graphique Parallel Coordinates
+- [x] Capturer : télécharger la matrice de confusion depuis l'onglet Artifacts
 
 #### 2.3 Requêtes programmatiques via le client MLflow
 - [x] Identifier le meilleur run via `MlflowClient` et `client.search_runs(...)`
@@ -279,13 +279,13 @@
 
 ### Compte Rendu (Tâche 5)
 - [x] Rédiger un document avec les réponses aux 16 questions (Q1 à Q16)
-- [ ] Inclure les 4 captures d'écran MLflow UI requises :
-  - [ ] Capture : runs triés par accuracy décroissante
-  - [ ] Capture : comparaison de 2 runs (bouton "Compare")
-  - [ ] Capture : graphique Parallel Coordinates (hyperparamètres vs métriques)
-  - [ ] Capture : téléchargement de la matrice de confusion depuis l'onglet Artifacts
+- [x] Inclure les 4 captures d'écran MLflow UI requises :
+  - [x] Capture : runs triés par accuracy décroissante
+  - [x] Capture : comparaison de 2 runs (bouton "Compare")
+  - [x] Capture : graphique Parallel Coordinates (hyperparamètres vs métriques)
+  - [x] Capture : téléchargement de la matrice de confusion depuis l'onglet Artifacts
 - [x] Documenter les choix techniques (modèle retenu, seuils de drift, seuil de production, etc.)
-- [ ] Committer après chaque partie fonctionnelle avec des noms de runs explicites (ex: `rf_100trees_depth5`)
+- [x] Committer après chaque partie fonctionnelle avec des noms de runs explicites (ex: `rf_100trees_depth5`)
 
 ### Conseils (depuis le PDF)
 - Nommer les runs de façon explicite, ex: `rf_100trees_depth5`, pour faciliter la comparaison dans MLflow UI
