@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dataset (too large for GitHub)
+dataset/*.csv
+dataset/raw/
+dataset/processed_data/
+
+# MLflow runs (large model artifacts)
+mlruns/
+
+# Node modules
+frontend/node_modules/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Reports cache
+reports/curves/
+reports/exports/
+reports/uploads/
+reports/model_uploads/
+reports/dataset_cache.json
+reports/current_model.json
+reports/drift_report_*.html
+
+# Gemini
+.gemini/

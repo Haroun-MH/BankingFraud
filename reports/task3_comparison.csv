@@ -1,0 +1,2 @@
+model,model_type,params,run_id,train_f1,val_f1,val_precision,val_recall,val_roc_auc,val_accuracy,params_json
+AdaBoost,adaboost,"{'n_estimators': 100, 'learning_rate': 1.0, 'random_state': 42}",85195cd607354c9b88f4c8bb94c34eba,0.320846982860941,0.3148676946506758,0.7383928571428572,0.20009678199854827,0.8654900973854265,0.9695278897280455,"{""learning_rate"": 1.0, ""n_estimators"": 100, ""random_state"": 42}"
